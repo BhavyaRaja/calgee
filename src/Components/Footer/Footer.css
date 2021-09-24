@@ -1,0 +1,45 @@
+.foot{
+    color:#93c9ff;
+   background-color: #145aa0;
+}
+input{
+    -webkit-appearance: none;
+    appearance: none;
+    border: 1px solid #93c9ff;
+    height: 20px;
+    background-color: #145aa0;
+     color: #93c9ff;; 
+    
+}
+.signup{
+    border: 1px solid #eee;
+    height: 25px;
+    width: 30%; 
+    background-color: #145aa0;
+    color: #93c9ff;
+}
+.icons-align{
+    width: 11% !important;
+    margin-left: 21px;
+}
+.foot hr{
+    margin-block-start: 2em;
+    margin-inline-start: 24px;
+}
+.foot-end{
+    box-sizing: content-box;
+    border: 1px solid;
+}
+
+@media (min-width:320px) and (max-width:766px) {
+    .icons-align{
+        width: 29% !important;
+    }
+    
+}
+
+@media (min-width:767px) and (max-width:1024px){
+    .signup{
+        width: 50%;
+    }
+}

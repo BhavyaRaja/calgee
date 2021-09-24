@@ -1,0 +1,30 @@
+.header-style{
+    text-align: center;
+    background-color:  #145aa0;
+    padding: 3px;
+    margin-block-start: auto;
+    margin-block-end: auto;
+    font-size: 11px;
+    font-weight: lighter;
+    color: #fff;
+    }
+
+    .header-style img{
+        vertical-align:sub;
+    }
+_:-ms-fullscreen, :root .header-style img{ 
+       vertical-align: top;
+      }
+_:-ms-fullscreen, :root hr{
+    margin: 0 74px 0 74px;
+    
+} 
+_:-ms-fullscreen, :root .contact-us h1{
+    margin-top: 0;
+}
+_:-ms-fullscreen, :root .contact-us span{
+    justify-content: space-around;
+}
+_:-ms-fullscreen, :root .foot hr{
+  margin: 30px 24px 0 24px;
+}
